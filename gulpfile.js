@@ -30,7 +30,7 @@ gulp.task("compile", function (cb) {
 
 gulp.task("compile:production", function () {
     browserify({
-        entries: "./src/components/Main.js",
+        entries: "./src/components/CommentBox.js",
         extensions: [".js"],
         debug: true
     })

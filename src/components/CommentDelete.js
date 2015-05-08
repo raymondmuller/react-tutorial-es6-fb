@@ -6,9 +6,7 @@ class CommentDelete extends React.Component {
             id = {
                 this.props.id
             }
-            onClick = {
-                this.props.onCommentDelete
-            } > X < /div>
+            onClick = {this.props.onCommentDelete}> X < /div>
         )
     }
 }
