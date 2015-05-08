@@ -11,7 +11,6 @@ class CommentList extends React.Component {
         return (
             <div className="commentList">
 						{this.props.comments.map((comment,index) => 
-
 							<div>
 							<Comment 
 								onCommentDelete={this.props.onCommentDelete} 
