@@ -1,0 +1,159 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+.comment {
+	padding: 10px;
+	position: relative;
+}
+
+.commentCross {
+	display: none;
+	position: absolute;
+	top: 0;
+  	cursor: pointer;
+  	right: 10px;
+	color: black;
+}
+
+.replyList {
+	.comment {
+		.commentCross {
+			display: none;
+		}
+	}
+}
+
+.comment:hover {
+	.commentCross {
+		display: block;
+	} 
+}	
+
+.commentList, .replyList {
+  background-color: #f6f7f8;
+  margin: 0 12px;
+  padding: 6px 0;
+  position: relative;
+}
+
+.commentImage {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	position: absolute;
+	vertical-align: middle;
+}
+
+.commentContent {
+	margin-left: 40px;
+}
+
+.commentAuthor {
+  	font-size: small;
+  	color: blue;
+  	margin-bottom: 0;
+	line-height: 16px;
+  	display: inline-block;
+}
+
+.commentText {
+	font-size: small;
+	line-height: 16px;
+}
+
+.commentLikeSection, .commentReplySection {
+	display: inline;
+}
+
+.commentExtra, .commentReplySection, .commentLikeSection {
+	font-size: x-small;
+	line-height: 12px;
+	padding: 4px 0 8px 0;
+	vertical-align: top;
+}
+
+.commentExtra > a, .commentExtra > span > a, .commentReplySection, .commentLikeSection{
+	cursor: pointer;
+}
+
+.commentLikeImage {
+	width: 13px;
+	height: 13px;
+}
+
+.commentExtraText, .commentExtraText > span, .commentReplySection, .commentLikeSection {
+	vertical-align: top;
+}
+
+.commentForm {
+	background-color:#f6f7f8;
+	border-radius:0 0 3px 3px;
+	color:#141823;
+	margin:0 12px;
+	padding: 20px 10px;
+	overflow:visible;
+	width:auto
+}
+
+.commentForm > .commentFormInput {
+	height: 30px;
+	margin-right: 10px;
+}
+
+.commentForm > .commentFormInput.commentFormName {
+	margin-left: 40px;
+}
+
+.commentForm > .commentFormButton {
+	display: none;
+}
