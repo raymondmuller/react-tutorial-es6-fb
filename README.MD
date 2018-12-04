@@ -20,6 +20,3 @@ Send me a message or open an issue :)
 
 ###License
 WTFPL (http://www.wtfpl.net/about/)
-
-###Contact
-If you have any questions or if you are looking for a remote ReactJS or AngularJS developer, feel free to contact me: raymond.muller.1989@gmail.com
